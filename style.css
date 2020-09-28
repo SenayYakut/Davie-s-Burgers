@@ -18,6 +18,10 @@ h1 {
     text-align: center;
 }
 
+#burger {
+    max-height: 30%;
+}
+
 #overlay {
     width: 80%;
     margin: 3% auto;
@@ -35,4 +39,10 @@ h1 {
 .toppings label,
 .cheesy label {
     margin-right: 25px;
+}
+
+#Creator {
+    text-align: right;
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
 }
