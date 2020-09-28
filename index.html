@@ -13,8 +13,12 @@
       <form action="submission.html" method="GET">
 				<h1>Create a burger!</h1>
         <section class="protein">
-          <label for="patty">What type of protein would you like?</label>
-    			<input type="text" name="patty" id="patty">
+	  <label for="patty">What type of protein would you like?</label>
+          <select name="patty" id="patty">
+            <option value="beef">Beef</option>
+            <option value="chicken">Chicken</option>
+            <option value="veggie">Veggie</option>
+          </select>
         </section>
         <hr>      
         <section class="patties">
